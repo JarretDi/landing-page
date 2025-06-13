@@ -8,4 +8,90 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 0px;
+}
+
+.header {
+    background-color: #1f2937;
+    color: #f9faf8;
+
+    width: 100%;
+    padding: 0px 48px 48px;
+    margin: 0px;
+}
+
+.header .bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    width: 66%;
+    margin: 0px auto;
+}
+
+.header .logo {
+    font-size: 24px;
+    
+}
+
+.links {
+    list-style: none;
+    padding: 0;
+
+    display: flex;
+    gap: 18px;
+    margin-left: 18px;
+}
+
+a {
+    font-size: 18px;
+    text-decoration: none;
+    color: #e5e7eb;
+}
+
+.header .desc {
+    display: flex;
+
+    width: 66%;
+    margin: 48px auto;
+    gap: 16px;
+}
+
+.hero {
+    flex: 1 1 0px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    font-weight: 900px;
+    margin: 0px;
+    line-height: 48px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-top: 8px;
+    color:#e5e7eb;
+}
+
+.hero button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-size: 18px;
+    font-weight: 700px;
+
+    padding: 3px 19px;
+
+    border-width: 1px;
+    border-radius: 4px;
+    border-color: #3882f6;
+}
+
+.image {
+    flex: 1 1 0px;
+    background-color: darkgray;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
