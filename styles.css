@@ -137,3 +137,29 @@ a {
 
     margin: 0px;
 }
+
+.quote {
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote .body {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 48px;
+}
+
+.quote .body .text {
+    font-size: 24px;
+    color: #1f2937;
+}
+
+.quote .body .name {
+    font-weight: 700px;
+    align-self: flex-end;
+}
