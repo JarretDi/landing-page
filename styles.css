@@ -2,6 +2,7 @@
 
 * {
     font-family: "Roboto";
+    /*border: 1px red solid;*/
 }
 
 body {
@@ -94,4 +95,45 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.information h1 {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+    margin: 24px auto;
+    text-align: center;
+}
+
+.infos {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    gap: 24px
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #1f2937
+}
+
+.info .box {
+    border: 3px #3882f6 solid;
+    border-radius: 8px;
+    flex: 1 1 1px;
+    width: 100%;
+    aspect-ratio: 1;
+
+    margin: 0px;
 }
