@@ -76,6 +76,7 @@ a {
 }
 
 .hero button {
+    cursor: pointer;
     background-color: #3882f6;
     color: #f9faf8;
     font-size: 18px;
@@ -156,10 +157,66 @@ a {
 
 .quote .body .text {
     font-size: 24px;
+    font-weight: lighter;
     color: #1f2937;
 }
 
 .quote .body .name {
-    font-weight: 700px;
+    font-weight: 900px;
     align-self: flex-end;
+}
+
+.footer {
+    width: 100%;
+}
+
+.footer .main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 48px;
+}
+
+.call-to-action {
+    display: flex;
+    justify-content: space-between;
+
+    color: #f9faf8;
+    background-color: #3882f6;   
+
+    padding: 8px 48px;
+    gap: 32px;
+    border-radius: 8px;
+}
+
+.signup h2 {
+    font-size: 20px;
+    font-weight: 900px;
+}
+
+.signup p {
+    font-size: 16px;
+}
+
+.signup-button {
+    align-self: center;
+
+    color: #f9faf8;
+    background-color: #3882f6;
+
+    border: 2px #f9faf8 solid;
+    border-radius: 4px;
+    padding: 4px 16px;
+}
+
+.copyright {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: #f9faf8;
+    background-color: #1f2937;
+
+    padding: 16px;
 }
