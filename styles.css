@@ -2,14 +2,18 @@
 
 * {
     font-family: "Roboto";
-    /*border: 1px red solid;*/
+    box-sizing: border-box;
 }
 
 body {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: stretch;
     margin: 0px;
+}
+
+.header,.information,.quote,.footer {
+    flex: 1 1 auto;
 }
 
 .header {
